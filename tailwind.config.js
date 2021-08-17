@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'gt-walsheim': ['gt-walsheim']
+      'display': ['gt-walsheim']
     }
   },
   variants: {
