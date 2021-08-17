@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Major from '../components/major_cpc'
 
 export default function Home() {
     return (
@@ -9,7 +10,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             </Head>
-            Comprehensive Political Compass
+            <Major />
         </div>
     )
 }
