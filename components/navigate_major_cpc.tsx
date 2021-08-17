@@ -2,13 +2,12 @@ import * as React from 'react';
 import { LibraryIcon, ArrowNarrowRightIcon } from '@heroicons/react/solid'
 
 export interface INavigateProps {
-    publisher_brand: string
     publisher_brand_href: string
     facebook_share_href: string
     facebook_group_href: string
 }
 
-export default function Navigate({ publisher_brand, publisher_brand_href, facebook_share_href, facebook_group_href }: INavigateProps) {
+export default function Navigate({ publisher_brand_href, facebook_share_href, facebook_group_href }: INavigateProps) {
     return (
         <div className="py-6 flex items-center justify-center text-sm leading-5 select-none">
             <a

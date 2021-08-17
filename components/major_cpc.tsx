@@ -10,7 +10,6 @@ export default function Major({ }: IMajorProps) {
         <header className="bg-[#5f2c82] px-16">
             <div className="mx-auto divide-y divide-black divide-opacity-10 max-w-8xl">
                 <Navigate 
-                    publisher_brand="/compass.svg"
                     publisher_brand_href="https://github.com/einemutigeschlacht/comprehensive-political-compass"
                     facebook_group_href=""
                     facebook_share_href=""
