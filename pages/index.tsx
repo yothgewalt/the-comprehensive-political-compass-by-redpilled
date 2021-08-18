@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Explain from '../components/explain_cpc'
 import Major from '../components/major_cpc'
 
 export default function Home() {
@@ -6,10 +7,10 @@ export default function Home() {
         <div className="antialiased font-display font-normal text-base text-black bg-white min-h-screen">
             <Head>
                 <meta charSet="utf-8" />
-                <title>Comprehensive Political Compass</title>
+                <title>The Comprehensive Political Compass</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-                <meta name="description" content="Wokism Discourse" />
+                <meta name="description" content="Political test that seeks to most accurately and thoroughly describe the overall political stance of a respondent and further divide it into distinct categories." />
                 <meta property="og:url" content="https://comprehensive-political-compass.vercel.app/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Comprehensive Political Compass" />
@@ -22,6 +23,7 @@ export default function Home() {
                 />
             </Head>
             <Major />
+            <Explain />
         </div>
     )
 }

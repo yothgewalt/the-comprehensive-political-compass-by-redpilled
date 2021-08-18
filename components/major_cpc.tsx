@@ -5,9 +5,9 @@ import Navigate from './navigate_major_cpc';
 export interface IMajorProps {
 }
 
-export default function Major({ }: IMajorProps) {
+export default function Major({}: IMajorProps) {
     return (
-        <header className="bg-[#5f2c82] px-16">
+        <header className="bg-gradient-to-r from-[#ad5389] to-[#3c1053] px-16">
             <div className="mx-auto divide-y divide-black divide-opacity-10 max-w-8xl">
                 <Navigate 
                     publisher_brand_href="https://github.com/einemutigeschlacht/comprehensive-political-compass"
